@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Design Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-white shadow p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold">My Design Gallery</h1>
+    <nav class="space-x-4">
+      <a href="#home" class="text-blue-600">Home</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#videos">Videos</a>
+      <a href="#social">Social</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="p-6 text-center">
+    <h2 class="text-3xl font-semibold">Welcome to My Design World</h2>
+    <p class="mt-2 text-gray-600">Explore my work in Photoshop, Illustrator, Canva, and more!</p>
+  </section>
+
+  <section id="gallery" class="p-6">
+    <h3 class="text-xl font-bold mb-4">My Designs</h3>
+    <div class="grid md:grid-cols-3 sm:grid-cols-2 gap-4">
+      <div class="bg-white rounded shadow p-3">
+        <img src="https://via.placeholder.com/300x200" alt="Design 1" class="rounded mb-2">
+        <h4 class="font-semibold">Photoshop Design</h4>
+        <a href="#" class="text-blue-500 text-sm">Download PSD</a>
+      </div>
+      <div class="bg-white rounded shadow p-3">
+        <img src="https://via.placeholder.com/300x200" alt="Design 2" class="rounded mb-2">
+        <h4 class="font-semibold">Illustrator Design</h4>
+        <a href="#" class="text-blue-500 text-sm">Download AI</a>
+      </div>
+      <div class="bg-white rounded shadow p-3">
+        <img src="https://via.placeholder.com/300x200" alt="Design 3" class="rounded mb-2">
+        <h4 class="font-semibold">Canva Poster</h4>
+        <a href="#" class="text-blue-500 text-sm">View Canva</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="videos" class="p-6">
+    <h3 class="text-xl font-bold mb-4">My Videos</h3>
+    <div class="grid md:grid-cols-2 gap-4">
+      <iframe class="w-full h-64" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+      <video class="w-full h-64" controls>
+        <source src="sample.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <section id="social" class="p-6 text-center">
+    <h3 class="text-xl font-bold mb-4">Follow Me</h3>
+    <div class="flex justify-center space-x-4">
+      <a href="#" class="text-blue-500">Facebook</a>
+      <a href="#" class="text-pink-500">Instagram</a>
+      <a href="#" class="text-red-500">YouTube</a>
+      <a href="#" class="text-blue-800">Behance</a>
+    </div>
+  </section>
+
+  <section id="contact" class="p-6 text-center">
+    <h3 class="text-xl font-bold mb-4">Contact Me</h3>
+    <p>Email: your@email.com</p>
+  </section>
+
+  <footer class="bg-white shadow mt-6 p-4 text-center">
+    <p class="text-sm text-gray-500">&copy; 2025 My Design Gallery</p>
+  </footer>
+</body>
+</html>
